@@ -35,5 +35,62 @@
 
 ---
 
+# Arsitektur Microservices
+## Apa itu Arsitektur Microservices
+- Aplikasi-aplikasi kecil yang saling bekerja sama.
+- Fokus mengerjakan satu pekerjaan dengan baik
+- Independent, dapat di deploy dan diubah tanpa tergantung dengan aplikasi lain
+- Setiap komponen pada sistem dibuat dalam service
+- Komunikasi antar service biasanya melalui network-call(http api, dll)
+
+## Arsitektur Microservices
+[https://docs.google.com/presentation/d/1lKnpXhljmYwKgdnb1K8GDrpCYuao_ZHHGn24gX_um2M/edit?slide=id.g6f889abcc1_0_19#slide=id.g6f889abcc1_0_19](https://docs.google.com/presentation/d/1lKnpXhljmYwKgdnb1K8GDrpCYuao_ZHHGn24gX_um2M/edit?slide=id.g6f889abcc1_0_19#slide=id.g6f889abcc1_0_19)
+
+## Kelebihan Arsitektur Microservices
+- Mudah dimengerti, karena relative kecil ukuran service nya
+- Lebih mudah di develop, di maintain, di test dan di deploy
+- Lebih mudah bergonta-ganti teknologi
+- Mudah di scale sesuai kebutuhan
+- Bisa dikerjakan dalam tim-tim kecil
+
+## Masalah di Arsitektur Microservices
+- Distributed system
+- Komunikasi antar service yang rawan error
+- Testing interaksi antar service lebih sulit
+
+## Pembagian Aplikasi Microservices
+[https://docs.google.com/presentation/d/1lKnpXhljmYwKgdnb1K8GDrpCYuao_ZHHGn24gX_um2M/edit?slide=id.g6f8f962e73_1_17#slide=id.g6f8f962e73_1_17](https://docs.google.com/presentation/d/1lKnpXhljmYwKgdnb1K8GDrpCYuao_ZHHGn24gX_um2M/edit?slide=id.g6f8f962e73_1_17#slide=id.g6f8f962e73_1_17)
+- per tim pegang 1 service/business domain
+
+## Seberapa Kecil Aplikasi Microservices?
+- Single responsibility
+- Sekecil mungkin sehingga bisa dimengerti oleh satu orang
+- Bisa di kerjakan sejumlah X developer
+
+
+## Kapan pilih arsitektur?
+### Monolith
+- Simplicity
+- Consistency
+- Easy to Refactor
+
+### Microservices
+- Partial Deployment
+- Availability
+- Multiple Platform
+- Easy to Scale
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
