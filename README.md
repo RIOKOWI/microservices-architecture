@@ -102,7 +102,7 @@
 # Shared Database
 
 ## Shared Database
-[https://docs.google.com/presentation/d/1lKnpXhljmYwKgdnb1K8GDrpCYuao_ZHHGn24gX_um2M/edit?slide=id.g6f8f962e73_1_167#slide=id.g6f8f962e73_1_167](https://docs.google.com/presentation/d/1lKnpXhljmYwKgdnb1K8GDrpCYuao_ZHHGn24gX_um2M/edit?slide=id.g6f8f962e73_1_167#slide=id.g6f8f962e73_1_167)
+[arch\shared-database.excalidraw.png](arch\shared-database.excalidraw.png)
 
 ## Kapan Harus Shared Database?
 - Ketika melakukan transisi dari aplikasi Monolith ke Microservices
@@ -110,7 +110,7 @@
 - Ketika dikejar waktu, sehingga tidak ada waktu untuk bikin API
 
 ## Contoh Shared Database
-[https://docs.google.com/presentation/d/1lKnpXhljmYwKgdnb1K8GDrpCYuao_ZHHGn24gX_um2M/edit?slide=id.g6f8f962e73_1_207#slide=id.g6f8f962e73_1_207](https://docs.google.com/presentation/d/1lKnpXhljmYwKgdnb1K8GDrpCYuao_ZHHGn24gX_um2M/edit?slide=id.g6f8f962e73_1_207#slide=id.g6f8f962e73_1_207)
+[arch\shared-database.excalidraw.png](arch\shared-database.excalidraw.png)
 
 
 ---
