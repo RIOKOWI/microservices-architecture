@@ -97,6 +97,23 @@
 ## Contoh Database per Service
 [https://docs.google.com/presentation/d/1lKnpXhljmYwKgdnb1K8GDrpCYuao_ZHHGn24gX_um2M/edit?slide=id.g6f8f962e73_1_248#slide=id.g6f8f962e73_1_248](https://docs.google.com/presentation/d/1lKnpXhljmYwKgdnb1K8GDrpCYuao_ZHHGn24gX_um2M/edit?slide=id.g6f8f962e73_1_248#slide=id.g6f8f962e73_1_248)
 
+---
+
+# Shared Database
+
+## Shared Database
+[https://docs.google.com/presentation/d/1lKnpXhljmYwKgdnb1K8GDrpCYuao_ZHHGn24gX_um2M/edit?slide=id.g6f8f962e73_1_167#slide=id.g6f8f962e73_1_167](https://docs.google.com/presentation/d/1lKnpXhljmYwKgdnb1K8GDrpCYuao_ZHHGn24gX_um2M/edit?slide=id.g6f8f962e73_1_167#slide=id.g6f8f962e73_1_167)
+
+## Kapan Harus Shared Database?
+- Ketika melakukan transisi dari aplikasi Monolith ke Microservices
+- Ketika bingung memecahkan data antar Service
+- Ketika dikejar waktu, sehingga tidak ada waktu untuk bikin API
+
+## Contoh Shared Database
+[https://docs.google.com/presentation/d/1lKnpXhljmYwKgdnb1K8GDrpCYuao_ZHHGn24gX_um2M/edit?slide=id.g6f8f962e73_1_207#slide=id.g6f8f962e73_1_207](https://docs.google.com/presentation/d/1lKnpXhljmYwKgdnb1K8GDrpCYuao_ZHHGn24gX_um2M/edit?slide=id.g6f8f962e73_1_207#slide=id.g6f8f962e73_1_207)
+
+
+
 
 
 
