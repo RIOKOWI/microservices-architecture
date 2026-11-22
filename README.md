@@ -86,7 +86,7 @@
 - tiap service punya database masing masing
 
 ## Decentralized Database
-[https://docs.google.com/presentation/d/1lKnpXhljmYwKgdnb1K8GDrpCYuao_ZHHGn24gX_um2M/edit?slide=id.g6f8f962e73_1_131#slide=id.g6f8f962e73_1_131](https://docs.google.com/presentation/d/1lKnpXhljmYwKgdnb1K8GDrpCYuao_ZHHGn24gX_um2M/edit?slide=id.g6f8f962e73_1_131#slide=id.g6f8f962e73_1_131)
+[arch\database-per-service.excalidraw.png](arch\database-per-service.excalidraw.png)
 
 
 ## Kenapa Harus Database per Service?
@@ -95,7 +95,7 @@
 - Service tidak perlu tahu kompleksitas internal database service lain
 
 ## Contoh Database per Service
-[https://docs.google.com/presentation/d/1lKnpXhljmYwKgdnb1K8GDrpCYuao_ZHHGn24gX_um2M/edit?slide=id.g6f8f962e73_1_248#slide=id.g6f8f962e73_1_248](https://docs.google.com/presentation/d/1lKnpXhljmYwKgdnb1K8GDrpCYuao_ZHHGn24gX_um2M/edit?slide=id.g6f8f962e73_1_248#slide=id.g6f8f962e73_1_248)
+[arch\database-per-service.excalidraw.png](arch\database-per-service.excalidraw.png)
 
 ---
 
