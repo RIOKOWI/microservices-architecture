@@ -144,7 +144,7 @@
 - Mempercepat dalam proses penulisan atau pencarian
 
 ## Contoh Kasus
-[https://docs.google.com/presentation/d/1lKnpXhljmYwKgdnb1K8GDrpCYuao_ZHHGn24gX_um2M/edit?slide=id.g6fb8ba0e81_1_20#slide=id.g6fb8ba0e81_1_20](https://docs.google.com/presentation/d/1lKnpXhljmYwKgdnb1K8GDrpCYuao_ZHHGn24gX_um2M/edit?slide=id.g6fb8ba0e81_1_20#slide=id.g6fb8ba0e81_1_20)
+[arch\nosql-case.excalidraw.png](arch\nosql-case.excalidraw.png)
 
 
 
