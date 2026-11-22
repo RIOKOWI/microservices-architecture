@@ -14,7 +14,7 @@
 - Dimana semua fitur dibuat dalam sebuah aplikasi besar
 
 ## Arsitektur Monolith
-[https://docs.google.com/presentation/d/1lKnpXhljmYwKgdnb1K8GDrpCYuao_ZHHGn24gX_um2M/edit?slide=id.g65395d66ab_1_14#slide=id.g65395d66ab_1_14](https://docs.google.com/presentation/d/1lKnpXhljmYwKgdnb1K8GDrpCYuao_ZHHGn24gX_um2M/edit?slide=id.g65395d66ab_1_14#slide=id.g65395d66ab_1_14)
+[arch\monolith-arch.excalidraw.png](arch\monolith-arch.excalidraw.png)
 
 # Mulailah dari Aplikasi Monolith
 - kalo bikin awal aplikasi pakai arsitektur monolith dulu
