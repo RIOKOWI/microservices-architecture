@@ -146,6 +146,36 @@
 ## Contoh Kasus
 [arch\nosql-case.excalidraw.png](arch\nosql-case.excalidraw.png)
 
+# Remote Procedure Invocation
+
+## Ketika Service butuh Data Service Lain
+[arch\remote-procedure-invocation.excalidraw.png](arch\remote-procedure-invocation.excalidraw.png)
+
+## Komunikasi Antar Service
+- Idealnya komunikasi dilakukan melalui RPI (Remote Procedure Invocation) atau RPC (Remote Procedure Call)
+- Tidak direkomendasikan komunikasi dilakukan via database
+
+## Contoh Remote Procedure Invocation
+- RESTful API (HTTP)
+- gRPC
+- Apache Thrift 
+- SOAP
+- Java RMI
+- Corba (Common Object Request Broker Architecture)
+- dan lain-lain
+
+## Ketika Service butuh Data Service Lain
+[arch\remote-procedure-invocation.excalidraw.png](arch\remote-procedure-invocation.excalidraw.png)
+
+
+## Keuntungan Menggunakan RPI
+- Sederhana dan Mudah
+- Biasanya digunakan untuk komunikasi Request - Reply
+- Biasanya digunakan untuk proses Sync (yang butuh menunggu jawaban)
+
+
+
+
 
 
 
