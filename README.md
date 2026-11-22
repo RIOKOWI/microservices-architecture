@@ -174,6 +174,50 @@
 - Biasanya digunakan untuk proses Sync (yang butuh menunggu jawaban)
 
 
+# Messaging
+## Ketika Service butuh Data Service Lain
+[arch\messagging.excalidraw.png](arch\messagging.excalidraw.png)
+
+## Komunikasi Menggunakan RPI
+[arch\messagging.excalidraw.png](arch\messagging.excalidraw.png)
+
+## Masalah di Komunikasi RPI
+- Proses lama (pada Email Service dan SMS Service)
+- Mengirim data yang sama berkali-kali (pada Finance Service dan Report Service)
+- Membuat Paralel Process sangat rumit
+
+## Komunikasi dengan Cara Messaging 
+- Messaging biasanya digunakan untuk komunikasi Async
+- Async artinya komunikasi dilakukan tanpa harus menunggu selesai di proses
+- Dalam async, kadang tidak perlu peduli balasan dari service yang dituju
+- Biasanya komunikasi Messaging membutuhkan Message Channel sebagai jembatan untuk mengirim dan menerima data
+- Direkomendasikan menggunakan aplikasi Message Broker untuk melakukan management Message Channel
+
+## Komunikasi Menggunakan Messaging
+[arch\messagging.excalidraw.png](arch\messagging.excalidraw.png)
+
+## Contoh Message Broker
+- Redis (PubSub)
+- Apache Kafka
+- RabbitMQ
+- NSQ
+- Google PubSub
+- Amazon Web Service SQS
+- dan lain-lain
+
+## Keuntungan Menggunakan Messaging
+- Proses lebih cepat karena tidak harus menunggu response
+- Service pengirim data tidak perlu peduli terhadap penerima data
+
+
+
+
+
+
+
+
+
+
 
 
 
