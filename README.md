@@ -80,6 +80,23 @@
 - Multiple Platform
 - Easy to Scale
 
+---
+
+# Database per Service
+- tiap service punya database masing masing
+
+## Decentralized Database
+[https://docs.google.com/presentation/d/1lKnpXhljmYwKgdnb1K8GDrpCYuao_ZHHGn24gX_um2M/edit?slide=id.g6f8f962e73_1_131#slide=id.g6f8f962e73_1_131](https://docs.google.com/presentation/d/1lKnpXhljmYwKgdnb1K8GDrpCYuao_ZHHGn24gX_um2M/edit?slide=id.g6f8f962e73_1_131#slide=id.g6f8f962e73_1_131)
+
+
+## Kenapa Harus Database per Service?
+- Memastikan bahwa antar service tidak ketergantungan
+- Tiap service bisa menggunakan aplikasi database sesuai dengan kebutuhan
+- Service tidak perlu tahu kompleksitas internal database service lain
+
+## Contoh Database per Service
+[https://docs.google.com/presentation/d/1lKnpXhljmYwKgdnb1K8GDrpCYuao_ZHHGn24gX_um2M/edit?slide=id.g6f8f962e73_1_248#slide=id.g6f8f962e73_1_248](https://docs.google.com/presentation/d/1lKnpXhljmYwKgdnb1K8GDrpCYuao_ZHHGn24gX_um2M/edit?slide=id.g6f8f962e73_1_248#slide=id.g6f8f962e73_1_248)
+
 
 
 
