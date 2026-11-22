@@ -44,7 +44,7 @@
 - Komunikasi antar service biasanya melalui network-call(http api, dll)
 
 ## Arsitektur Microservices
-[https://docs.google.com/presentation/d/1lKnpXhljmYwKgdnb1K8GDrpCYuao_ZHHGn24gX_um2M/edit?slide=id.g6f889abcc1_0_19#slide=id.g6f889abcc1_0_19](https://docs.google.com/presentation/d/1lKnpXhljmYwKgdnb1K8GDrpCYuao_ZHHGn24gX_um2M/edit?slide=id.g6f889abcc1_0_19#slide=id.g6f889abcc1_0_19)
+[arch\microcervices-arch.excalidraw.png](arch\microcervices-arch.excalidraw.png)
 
 ## Kelebihan Arsitektur Microservices
 - Mudah dimengerti, karena relative kecil ukuran service nya
@@ -59,7 +59,7 @@
 - Testing interaksi antar service lebih sulit
 
 ## Pembagian Aplikasi Microservices
-[https://docs.google.com/presentation/d/1lKnpXhljmYwKgdnb1K8GDrpCYuao_ZHHGn24gX_um2M/edit?slide=id.g6f8f962e73_1_17#slide=id.g6f8f962e73_1_17](https://docs.google.com/presentation/d/1lKnpXhljmYwKgdnb1K8GDrpCYuao_ZHHGn24gX_um2M/edit?slide=id.g6f8f962e73_1_17#slide=id.g6f8f962e73_1_17)
+[arch\microcervices-arch.excalidraw.png](arch\microcervices-arch.excalidraw.png)
 - per tim pegang 1 service/business domain
 
 ## Seberapa Kecil Aplikasi Microservices?
