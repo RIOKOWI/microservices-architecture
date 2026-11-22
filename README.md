@@ -113,6 +113,42 @@
 [https://docs.google.com/presentation/d/1lKnpXhljmYwKgdnb1K8GDrpCYuao_ZHHGn24gX_um2M/edit?slide=id.g6f8f962e73_1_207#slide=id.g6f8f962e73_1_207](https://docs.google.com/presentation/d/1lKnpXhljmYwKgdnb1K8GDrpCYuao_ZHHGn24gX_um2M/edit?slide=id.g6f8f962e73_1_207#slide=id.g6f8f962e73_1_207)
 
 
+---
+
+# NoSQL
+## Apa itu NoSQL?
+- NoSQL bukanlah NO (TIDAK/BUKAN) SQL
+- NoSQL singkatan dari Not Only SQL
+- yang berarti bukan sql saja yang bisa di buat database/simpan data
+
+## Jenis-Jenis NoSQL
+- Document Oriented Database
+- Key-Value  Database
+- Column Families Database
+- Graph Database
+- Search Database
+- Time Series Database
+- Dan lain-lain
+
+## Contoh NoSQL Database
+- MongoDB : Document Oriented Database 
+- Elasticsearch : Search Database
+- Redis : Key-Value Database
+- Apache Cassandra : Column Families Database
+- Neo4J : Graph Database
+- InfluxDB : Time Series Database
+
+## Kenapa Butuh Tahu NoSQL?
+- Agar bisa disesuaikan dengan kebutuhan
+- Bisa mencari alternatif cara mengolah data
+- Mempercepat dalam proses penulisan atau pencarian
+
+## Contoh Kasus
+[https://docs.google.com/presentation/d/1lKnpXhljmYwKgdnb1K8GDrpCYuao_ZHHGn24gX_um2M/edit?slide=id.g6fb8ba0e81_1_20#slide=id.g6fb8ba0e81_1_20](https://docs.google.com/presentation/d/1lKnpXhljmYwKgdnb1K8GDrpCYuao_ZHHGn24gX_um2M/edit?slide=id.g6fb8ba0e81_1_20#slide=id.g6fb8ba0e81_1_20)
+
+
+
+
 
 
 
