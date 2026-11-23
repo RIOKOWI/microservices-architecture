@@ -305,6 +305,88 @@
 
 ---
 
+# Service Choreography
+## Service Choreography
+- Service Choreography berbeda dengan Service Orchestration. 
+- Dalam Service Choreography, komunikasi Aggregation Service dengan Microservices lainnya menggunakan Messaging.
+- Dalam Service Orchestration, Aggregation Microservice adalah service yang sangat kompleks dan mengerti semua alur business logic, sedangkan berbeda dengan Service Choreography, semua Microservices dituntut untuk menjadi pintar, tidak hanya diperintah oleh Aggregation Microservices.
+
+## Contoh Service Choreography
+[arch\choreography.excalidraw.png](arch\choreography.excalidraw.png)
+
+## Keuntungan Service Choreography
+- Aggregation Microservices tidak tergantung dengan Microservices lainnya
+- Aggregation Microservice akan lebih cepat, karena tidak perlu berkomunikasi dengan Microservices lainnya
+- Jika ada Microservice baru, Aggregation Microservice tidak perlu melakukan perubahan lagi
+
+## Kekurangan Service Choreography
+- Lebih sulit di-debug ketika terjadi masalah
+- Business logic akan terdistribusi di semua Microservices, sehingga sulit untuk dimengerti secara keseluruhan
+- bergantung banget dengan message broker, pilihlah message broker yang bagus dan scalable
+
+## Rekomendasi
+- kalo tim masih sedikit belum ada yang senior pake service orchestration dan sebaliknya
+
+## SOURCE
+[https://www.youtube.com/watch?v=zgu2r3_2i_E&list=PL-CtdCApEFH-MtoBwQ0F3xNG21yjt5Kvs&index=11](https://www.youtube.com/watch?v=zgu2r3_2i_E&list=PL-CtdCApEFH-MtoBwQ0F3xNG21yjt5Kvs&index=11)
+
+---
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+---
+
 ## SLIDE
 [https://docs.google.com/presentation/d/1lKnpXhljmYwKgdnb1K8GDrpCYuao_ZHHGn24gX_um2M/](https://docs.google.com/presentation/d/1lKnpXhljmYwKgdnb1K8GDrpCYuao_ZHHGn24gX_um2M/)
 
