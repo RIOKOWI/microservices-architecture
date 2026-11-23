@@ -33,6 +33,9 @@
 - Scaling pada bagian tertentu tidak bisa dilakukan
 - Running app Monolith sangat berat(bisa sampai 15 menit restart app kalau app sudah gede banget)
 
+## SOURCE
+[https://www.youtube.com/watch?v=CHBfpPMILaQ&list=PL-CtdCApEFH-MtoBwQ0F3xNG21yjt5Kvs&index=2](https://www.youtube.com/watch?v=CHBfpPMILaQ&list=PL-CtdCApEFH-MtoBwQ0F3xNG21yjt5Kvs&index=2)
+
 ---
 
 # Arsitektur Microservices
@@ -80,6 +83,9 @@
 - Multiple Platform
 - Easy to Scale
 
+## SOURCE
+[https://www.youtube.com/watch?v=W96gPBQ0blE&list=PL-CtdCApEFH-MtoBwQ0F3xNG21yjt5Kvs&index=3](https://www.youtube.com/watch?v=W96gPBQ0blE&list=PL-CtdCApEFH-MtoBwQ0F3xNG21yjt5Kvs&index=3)
+
 ---
 
 # Database per Service
@@ -97,6 +103,9 @@
 ## Contoh Database per Service
 [arch\database-per-service.excalidraw.png](arch\database-per-service.excalidraw.png)
 
+## SOURCE
+[https://www.youtube.com/watch?v=W4G-cr5m5Do&list=PL-CtdCApEFH-MtoBwQ0F3xNG21yjt5Kvs&index=4](https://www.youtube.com/watch?v=W4G-cr5m5Do&list=PL-CtdCApEFH-MtoBwQ0F3xNG21yjt5Kvs&index=4)
+
 ---
 
 # Shared Database
@@ -112,6 +121,8 @@
 ## Contoh Shared Database
 [arch\shared-database.excalidraw.png](arch\shared-database.excalidraw.png)
 
+## SOURCE
+[https://www.youtube.com/watch?v=jYuo2_DMasI&list=PL-CtdCApEFH-MtoBwQ0F3xNG21yjt5Kvs&index=5](https://www.youtube.com/watch?v=jYuo2_DMasI&list=PL-CtdCApEFH-MtoBwQ0F3xNG21yjt5Kvs&index=5)
 
 ---
 
@@ -146,6 +157,11 @@
 ## Contoh Kasus
 [arch\nosql-case.excalidraw.png](arch\nosql-case.excalidraw.png)
 
+## SOURCE
+[https://www.youtube.com/watch?v=Pw34eg_6ve4&list=PL-CtdCApEFH-MtoBwQ0F3xNG21yjt5Kvs&index=6](https://www.youtube.com/watch?v=Pw34eg_6ve4&list=PL-CtdCApEFH-MtoBwQ0F3xNG21yjt5Kvs&index=6)
+
+---
+
 # Remote Procedure Invocation
 
 ## Ketika Service butuh Data Service Lain
@@ -173,6 +189,10 @@
 - Biasanya digunakan untuk komunikasi Request - Reply
 - Biasanya digunakan untuk proses Sync (yang butuh menunggu jawaban)
 
+## SOURCE
+[https://www.youtube.com/watch?v=Rsi8mxVX70M&list=PL-CtdCApEFH-MtoBwQ0F3xNG21yjt5Kvs&index=7](https://www.youtube.com/watch?v=Rsi8mxVX70M&list=PL-CtdCApEFH-MtoBwQ0F3xNG21yjt5Kvs&index=7)
+
+---
 
 # Messaging
 ## Ketika Service butuh Data Service Lain
@@ -213,6 +233,11 @@
 - get data pakai rpi
 - post data secara async pakai messaging
 
+## SOURCE
+[https://www.youtube.com/watch?v=IgJ8RBsRGoM&list=PL-CtdCApEFH-MtoBwQ0F3xNG21yjt5Kvs&index=8](https://www.youtube.com/watch?v=IgJ8RBsRGoM&list=PL-CtdCApEFH-MtoBwQ0F3xNG21yjt5Kvs&index=8)
+
+---
+
 # Type of Microservices
 ## Tipe Microservices
 - Stateless Microservice
@@ -244,13 +269,44 @@
 - Tidak bisa berdiri sendiri
 
 ## Contoh Aggregation Microservices
-[https://docs.google.com/presentation/d/1lKnpXhljmYwKgdnb1K8GDrpCYuao_ZHHGn24gX_um2M/edit?slide=id.g7c2be31d00_0_40#slide=id.g7c2be31d00_0_40](https://docs.google.com/presentation/d/1lKnpXhljmYwKgdnb1K8GDrpCYuao_ZHHGn24gX_um2M/edit?slide=id.g7c2be31d00_0_40#slide=id.g7c2be31d00_0_40)
+[arch\type-of-microservice.excalidraw.png](arch\type-of-microservice.excalidraw.png)
 
 ## Contoh Kasus
-[https://docs.google.com/presentation/d/1lKnpXhljmYwKgdnb1K8GDrpCYuao_ZHHGn24gX_um2M/edit?slide=id.g7c2be31d00_0_45#slide=id.g7c2be31d00_0_45](https://docs.google.com/presentation/d/1lKnpXhljmYwKgdnb1K8GDrpCYuao_ZHHGn24gX_um2M/edit?slide=id.g7c2be31d00_0_45#slide=id.g7c2be31d00_0_45)
+[arch\type-of-microservice.excalidraw.png](arch\type-of-microservice.excalidraw.png)
+
+## SOURCE
+[https://www.youtube.com/watch?v=SFkPLgpFiT4&list=PL-CtdCApEFH-MtoBwQ0F3xNG21yjt5Kvs&index=9](https://www.youtube.com/watch?v=SFkPLgpFiT4&list=PL-CtdCApEFH-MtoBwQ0F3xNG21yjt5Kvs&index=9)
+
+---
+
+# Service Orchestration
+## Service Orchestration
+- Sebelumnya kita sudah bahas tentang tipe Aggregation Microservices
+- Cara Aggregation Microservices berkomunikasi dengan Microservices lain, jika menggunakan Remote Procedure Invocation, maka dinamakan Service Orchestration Pattern
+- Dalam Service Orchestration Pattern, Aggregation Microservices bertugas untuk mengatur alur business logic sistem.
+
+## Contoh Service Orchestration
+[arch\orchestration.excalidraw.png](arch\orchestration.excalidraw.png)
+
+## Keuntungan Service Orchestration
+- Mudah dibuat, karena kode business logic akan terpusat di Aggregation Microservices
+- Mudah dimengerti, karena kode business logic akan terpusat di Aggregation Microservices
+
+## Kekurangan Service Orchestration
+- Aggregation Microservices terlalu ketergantungan dengan Microservices lain
+- Aggregation Microservices akan lebih lambat karena harus terkoneksi dengan Microservices lain
+- Aggregation Microservices akan lebih mudah error jika di Microservices lain terdapat masalah
+- Jika perlu Microservices baru, perlu dilakukan perubahan di Aggregation Microservices
 
 
+## SOURCE
+[https://www.youtube.com/watch?v=WTLGEsmKves&list=PL-CtdCApEFH-MtoBwQ0F3xNG21yjt5Kvs&index=10](https://www.youtube.com/watch?v=WTLGEsmKves&list=PL-CtdCApEFH-MtoBwQ0F3xNG21yjt5Kvs&index=10)
 
+
+---
+
+## SLIDE
+[https://docs.google.com/presentation/d/1lKnpXhljmYwKgdnb1K8GDrpCYuao_ZHHGn24gX_um2M/](https://docs.google.com/presentation/d/1lKnpXhljmYwKgdnb1K8GDrpCYuao_ZHHGn24gX_um2M/)
 
 
 
