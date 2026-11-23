@@ -209,6 +209,47 @@
 - Proses lebih cepat karena tidak harus menunggu response
 - Service pengirim data tidak perlu peduli terhadap penerima data
 
+## Rekomendasi
+- get data pakai rpi
+- post data secara async pakai messaging
+
+# Type of Microservices
+## Tipe Microservices
+- Stateless Microservice
+- Persistence Microservice
+- Aggregation Microservices
+
+## Stateless Microservices
+- Biasanya tidak memiliki database
+- Digunakan untuk melakukan tugas sederhana
+- Biasa digunakan juga sebagai utility untuk microservice lain
+- Tidak bergantung dengan microservice lain
+
+## Contoh Stateless Microservices
+[arch\type-of-microservice.excalidraw.png](arch\type-of-microservice.excalidraw.png)
+
+
+## Persistence Microservices
+- Biasanya memiliki database 
+- Bisa juga disebut sebagai Master Data Microservice
+- Biasa digunakan untuk mengolah data di database (CRUD)
+
+## Contoh Persistence Microservices
+[arch\type-of-microservice.excalidraw.png](arch\type-of-microservice.excalidraw.png)
+
+## Aggregation Microservices
+- Tergantung dengan microservice lain
+- Biasa digunakan sebagai pusat business logic aplikasi
+- Boleh memiliki database ataupun tidak
+- Tidak bisa berdiri sendiri
+
+## Contoh Aggregation Microservices
+[https://docs.google.com/presentation/d/1lKnpXhljmYwKgdnb1K8GDrpCYuao_ZHHGn24gX_um2M/edit?slide=id.g7c2be31d00_0_40#slide=id.g7c2be31d00_0_40](https://docs.google.com/presentation/d/1lKnpXhljmYwKgdnb1K8GDrpCYuao_ZHHGn24gX_um2M/edit?slide=id.g7c2be31d00_0_40#slide=id.g7c2be31d00_0_40)
+
+## Contoh Kasus
+[https://docs.google.com/presentation/d/1lKnpXhljmYwKgdnb1K8GDrpCYuao_ZHHGn24gX_um2M/edit?slide=id.g7c2be31d00_0_45#slide=id.g7c2be31d00_0_45](https://docs.google.com/presentation/d/1lKnpXhljmYwKgdnb1K8GDrpCYuao_ZHHGn24gX_um2M/edit?slide=id.g7c2be31d00_0_45#slide=id.g7c2be31d00_0_45)
+
+
 
 
 
