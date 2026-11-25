@@ -532,6 +532,38 @@ Authorization :
 ---
 
 
+# Client Side Discovery
+## Kekurangan Server Side Discovery
+- Tiap service harus memiliki router atau load balancer
+- Agar tidak terjadi single point of failure, maka router atau load balancer harus di setup sebanyak 2 instance
+- Cost biaya akan lebih mahal, karena 1 service harus menjalankan 2 router
+
+## Client Side Discovery
+- Client side discovery adalah solusi agar client harus bisa tahu lokasi semua lokasi service yang akan dituju
+- Tidak perlu lagi ada router atau load balancer untuk berkomunikasi dengan Service lain
+- Semua logic untuk mendistribusikan traffic harus dilakukan di client atau service yang akan melakukan request
+
+## Client Side Discovery
+[arch\csd.excalidraw.png](arch\csd.excalidraw.png)
+
+## Kekurangan Client Side Discovery
+- Client harus tahu lokasi semua service
+- Jika jumlah node service bertambah atau berkurang, client harus diubah untuk lokasi baru nya
+- Jika client salah mengimplementasikan logic untuk load balancer, maka traffic ke service yang dituju bisa tidak merata pembagiannya
+
+## Rekomendasi
+- jika budget gak masalah pakai server side discovery
+- jika budget terbatas pakai client side discovery
+
+## SOURCE
+[https://www.youtube.com/watch?v=TFLw28SIH7o&list=PL-CtdCApEFH-MtoBwQ0F3xNG21yjt5Kvs&index=17](https://www.youtube.com/watch?v=TFLw28SIH7o&list=PL-CtdCApEFH-MtoBwQ0F3xNG21yjt5Kvs&index=17)
+
+---
+
+
+
+
+
 
 
 
