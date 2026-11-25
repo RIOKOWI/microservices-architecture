@@ -592,6 +592,40 @@ Authorization :
 
 ---
 
+# Centralized Configuration
+
+## Dimana Menyimpan Konfigurasi?
+- Konfigurasi adalah sesuatu yang tidak asing lagi saat membuat aplikasi
+- Tiap aplikasi biasanya memiliki konfigurasi, seperti konfigurasi database misalnya
+- Pertanyaannya, dimana sebaiknya menyimpan konfigurasi? Agar mudah untuk di maintain dan digunakan oleh aplikasi kita?
+
+## Contoh Lokasi Konfigurasi
+- Database
+- File
+- Environment Variable
+
+
+## Centralized Configuration
+- Centralized Configuration adalah pattern dimana kita menyimpan semua konfigurasi di sebuah aplikasi atau service
+- Service yang butuh konfigurasi akan bertanya ke aplikasi tersebut untuk mendapatkan data konfigurasinya
+
+
+## Mendapatkan Konfigurasi
+[arch\centralized-configuration.excalidraw.png](arch\centralized-configuration.excalidraw.png)
+
+## Contoh Aplikasi Centralized Configuration
+- Hashicorp Consul [https://www.consul.io/](https://www.consul.io/)
+- Hashicorp Vault [https://www.vaultproject.io/](https://www.vaultproject.io/)
+- Etcd [https://etcd.io/](https://etcd.io/)
+- Zookeeper [https://zookeeper.apache.org/](https://zookeeper.apache.org/)
+- Doozerd [https://github.com/ha/doozerd](https://github.com/ha/doozerd)
+
+
+## SOURCE
+[https://www.youtube.com/watch?v=0Ipubljd2ZU&list=PL-CtdCApEFH-MtoBwQ0F3xNG21yjt5Kvs&index=19](https://www.youtube.com/watch?v=0Ipubljd2ZU&list=PL-CtdCApEFH-MtoBwQ0F3xNG21yjt5Kvs&index=19)
+
+
+
 
 
 
