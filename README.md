@@ -412,8 +412,51 @@ Authorization :
 --- 
 
 
+# Backend for Frontend
+
+## Permasalahan Banyak Jenis Frontend
+[arch\be-4-fe.excalidraw.png](arch\be-4-fe.excalidraw.png)
+
+## Permasalahan Banyak Jenis Frontend
+- Tiap frontend punya mekanisme autentikasi berbeda
+- Kecepatan bandwidth tiap frontend berbeda
+- API yang dibutuhkan tiap frontend berbeda
+- Semua kebutuhan jenis frontend harus diimplementasikan di satu API Gateway
 
 
+## Backend for Frontend
+- Backend for Frontend adalah menyediakan backend khusus untuk frontend tertentu
+- Biasanya satu backend akan melayani satu frontend secara specific
+- Makin banyak jenis frontend, makin banyak backend yang dibuat
+
+
+## Backend for Frontend
+[arch\be-4-fe.excalidraw.png](arch\be-4-fe.excalidraw.png)
+
+## Keuntungan Backend for Frontend
+- Pengembangan backend untuk tiap frontend bisa terisolasi satu sama lain
+- Logic untuk frontend tidak tercampur di satu backend
+
+## GraphQL : Alternative Backend for Frontend
+- GraphQL adalah query language untuk API 
+- GraphQL dapat digunakan untuk memanipulasi response API secara runtime
+- Frontend bebas menentukan data apa aja yang ingin didapatkan
+- Backend hanya perlu menyediakan data lengkap, dan Frontend bisa dengan bebas menentukan data apa aja yang diinginkan.
+
+
+## GraphQL : Alternative Backend for Frontend
+[arch\be-4-fe.excalidraw.png](arch\be-4-fe.excalidraw.png)
+
+
+## Kekurangan Menggunakan GraphQL
+- Butuh melakukan development GraphQL Server di Backend
+- Butuh melakukan development GraphQL Client di Frontend
+
+
+## SOURCE
+[https://www.youtube.com/watch?v=xd3SDxCd38U&list=PL-CtdCApEFH-MtoBwQ0F3xNG21yjt5Kvs&index=14](https://www.youtube.com/watch?v=xd3SDxCd38U&list=PL-CtdCApEFH-MtoBwQ0F3xNG21yjt5Kvs&index=14)
+
+---
 
 
 
