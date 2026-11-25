@@ -498,6 +498,41 @@ Authorization :
 ---
 
 
+# Server Side Discovery
+## Komunikasi Antar Microservices
+[arch\ssd.excalidraw.png](arch\ssd.excalidraw.png)
+
+## Server Side Discovery
+- Membuat server khusus sebagai router atau load balancer ke service
+- Client hanya butuh terkoneksi ke router atau load balancer
+- Jika jumlah node service bertambah atau berkurang, router yang hanya perlu dirubah, client tidak perlu berubah
+
+## Server Side Discovery
+[arch\ssd.excalidraw.png](arch\ssd.excalidraw.png)
+
+
+## Contoh Router atau Load Balancer
+- Nginx
+- Apache HTTPD
+- Traefik
+- dll
+
+## Kekurangan Server Side Discovery
+[arch\ssd.excalidraw.png](arch\ssd.excalidraw.png)
+
+## Kekurangan Server Side Discovery
+- Tiap service harus memiliki router atau load balancer
+- Agar tidak terjadi single point of failure, maka router atau load balancer harus di setup sebanyak 2 instance
+- Cost biaya akan lebih mahal, karena 1 service harus menjalankan 2 router
+
+
+## SOURCE
+[https://www.youtube.com/watch?v=3yBWxHh2PU4&list=PL-CtdCApEFH-MtoBwQ0F3xNG21yjt5Kvs&index=16](https://www.youtube.com/watch?v=3yBWxHh2PU4&list=PL-CtdCApEFH-MtoBwQ0F3xNG21yjt5Kvs&index=16)
+
+---
+
+
+
 
 
 
