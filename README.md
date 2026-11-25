@@ -452,13 +452,50 @@ Authorization :
 - Butuh melakukan development GraphQL Server di Backend
 - Butuh melakukan development GraphQL Client di Frontend
 
+## Rekomendasi
+- kalo tim banyak pakai yang isolation backend
+- kalo tim dikit pakai graphql
 
 ## SOURCE
 [https://www.youtube.com/watch?v=xd3SDxCd38U&list=PL-CtdCApEFH-MtoBwQ0F3xNG21yjt5Kvs&index=14](https://www.youtube.com/watch?v=xd3SDxCd38U&list=PL-CtdCApEFH-MtoBwQ0F3xNG21yjt5Kvs&index=14)
 
 ---
 
+# CQRS (Command Query Responsibility Segregation)
 
+## Persistence Microservices
+[arch\cqrs.excalidraw.png](arch\cqrs.excalidraw.png)
+
+## Command Query Responsibility Segregation
+- CQRS adalah proses membedakan operasi Command dan operasi Query
+- Operasi Command adalah operasi mengubah data (Create, Update, Delete)
+- Operasi Query adalah operasi mengambil data (Get, Search) 
+- Dalam CQRS, biasanya service atau database dibedakan untuk kebutuhan Command dan kebutuhan Query
+
+## CQRS
+[arch\cqrs.excalidraw.png](arch\cqrs.excalidraw.png)
+
+## Keuntungan CQRS
+- Bisa memilih database berbeda yang optimal untuk proses Command dan Query, sehingga operasi Command dan Search bisa lebih cepat, karena database nya sudah disesuaikan dengan kebutuhan
+- Membedakan model untuk Command dan Query di aplikasi akan lebih mudah dibanding digabung di satu model yang sama untuk proses Command dan Query
+- Performa aplikasi akan lebih baik, karena kita membedakan component untuk Command dan Query
+
+
+## CQRS Menggunakan Messaging
+[arch\cqrs.excalidraw.png](arch\cqrs.excalidraw.png)
+
+## Keuntungan CQRS Menggunakan Messaging
+- Aplikasi Command dan Query terpisah, sehingga bisa dikerjakan oleh tim yang berbeda secara paralel
+- Aplikasi Command tidak perlu pusing memikirkan struktur data Aplikasi Query, hanya cukup mengirim datanya ke Message Broker
+- Scaling aplikasi bisa sesuai dengan kebutuhan, baik itu Command atau Query
+- Jika Aplikasi Query sedang stop atau error, data dari Aplikasi Command akan tetap aman tersimpan di Message Broker
+- Mekanisme retry akan lebih mudah dilakukan jika melalui Message Broker
+
+## SOURCE
+[https://www.youtube.com/watch?v=eei78T5Nz-U&list=PL-CtdCApEFH-MtoBwQ0F3xNG21yjt5Kvs&index=15](https://www.youtube.com/watch?v=eei78T5Nz-U&list=PL-CtdCApEFH-MtoBwQ0F3xNG21yjt5Kvs&index=15)
+
+
+---
 
 
 
