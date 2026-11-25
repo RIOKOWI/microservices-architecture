@@ -560,6 +560,38 @@ Authorization :
 
 ---
 
+# Service Registry
+## Kekurangan Client Side Discovery
+- Client harus tahu lokasi semua service
+- Jika jumlah node service bertambah atau berkurang, client harus diubah untuk lokasi baru nya
+- Jika client salah mengimplementasikan logic untuk load balancer, maka traffic ke service yang dituju bisa tidak merata pembagiannya
+
+## Service Registry
+- Service Registry  adalah aplikasi yang digunakan sebagai tempat untuk menyimpan semua informasi yang berhubungan dengan lokasi service
+- Semua service akan meregistrasikan alamat lokasi nya di Service Registry  ketika pertama kali nyala
+- Semua service akan laporan ke Service Registry  jika akan berhenti beroperasi, sehingga Service Registry  akan menghilangkan informasi service tersebut agar tidak mendapat traffic dari service yang bertanya
+
+## Registrasi ke Service Registry
+[arch\service-registry.excalidraw.png](arch\service-registry.excalidraw.png)
+
+
+## Bertanya ke Service Registry
+[arch\service-registry.excalidraw.png](arch\service-registry.excalidraw.png)
+
+
+## Health Check di Service Registry
+[arch\service-registry.excalidraw.png](arch\service-registry.excalidraw.png)
+
+## Contoh Aplikasi Service Registry
+- Hashicorp Consul [https://www.consul.io/](https://www.consul.io/)
+- Netflix Eureka [https://github.com/Netflix/eureka](https://github.com/Netflix/eureka)
+
+
+## SOURCE
+[https://www.youtube.com/watch?v=TFLw28SIH7o&list=PL-CtdCApEFH-MtoBwQ0F3xNG21yjt5Kvs&index=17](https://www.youtube.com/watch?v=TFLw28SIH7o&list=PL-CtdCApEFH-MtoBwQ0F3xNG21yjt5Kvs&index=17)
+
+---
+
 
 
 
