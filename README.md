@@ -332,6 +332,45 @@
 
 ---
 
+# API  Gateway
+## Mengekspos Microservices
+[arch\api-gateway.excalidraw.png](arch\api-gateway.excalidraw.png)
+
+## Masalah Mengekspos Microservices
+- Semua service bisa diakses dari luar
+- Jika butuh Autentikasi, harus diimplementasikan di semua service
+- Rawan terjadi kebocoran data
+
+## API Gateway
+- API Gateway adalah aplikasi yang bertugas sebagai gerbang dari luar ke dalam
+- Luar adalah akses dari internet, dan Dalam adalah aplikasi microservices
+- API Gateway bertugas sebagai proxy server ke semua aplikasi microservices
+- Aplikasi microservices hanya bisa diakses dari luar melalui API Gateway
+
+## API Gateway
+- API Gateway adalah aplikasi yang bertugas sebagai gerbang dari luar ke dalam
+- Luar adalah akses dari internet, dan Dalam adalah aplikasi microservices
+- API Gateway bertugas sebagai proxy server ke semua aplikasi microservices
+- Aplikasi microservices hanya bisa diakses dari luar melalui API Gateway
+
+## API Gateway
+[arch\api-gateway.excalidraw.png](arch\api-gateway.excalidraw.png)
+
+## Keuntungan API Gateway
+- Lebih aman karena satu gerbang
+- Service tidak perlu mengimplementasikan proses Autentikasi, cukup dilakukan di API Gateway
+- API Gateway juga bisa digunakan sebagai load balancer
+- Bisa digunakan sebagai rate limiter
+- Bisa digunakan sebagai pengaman sehingga error dari service tidak terekspos
+
+## Contoh API Gateway
+- Nginx
+- Apache HTTPD
+- Kong
+- Netflix Zuul
+- Spring Cloud Gateway
+
+
 
 
 
