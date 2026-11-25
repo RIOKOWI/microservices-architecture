@@ -370,6 +370,47 @@
 - Netflix Zuul
 - Spring Cloud Gateway
 
+## SOURCE
+[https://www.youtube.com/watch?v=6qzD87wQTDA&list=PL-CtdCApEFH-MtoBwQ0F3xNG21yjt5Kvs&index=12](https://www.youtube.com/watch?v=6qzD87wQTDA&list=PL-CtdCApEFH-MtoBwQ0F3xNG21yjt5Kvs&index=12)
+
+
+--- 
+
+# Authentication & Authorization
+## Bagaimana Mengamankan Microservices?
+[arch\auth.excalidraw.png](arch\auth.excalidraw.png)
+
+## Authentication dan Authorization
+Authentication :
+- Memvalidasi kredensial  untuk memverifikasi pemilik identitas
+- Contoh proses Authentication adalah proses login menggunakan username dan password, dan banyak yang lainnya.
+
+Authorization :
+- Authorization adalah proses yang dilakukan setelah proses Authentication
+- Memvalidasi apakah pemilik identitas memiliki hak akses untuk mengakses resource yang diminta
+- Contoh proses Authorization adalah Access-Control List, dan banyak yang lainnya.
+
+## Auth Service
+[arch\auth.excalidraw.png](arch\auth.excalidraw.png)
+
+## Integrasi dengan Auth Service
+[arch\auth.excalidraw.png](arch\auth.excalidraw.png)
+
+## API Gateway sebagai Middleware
+[arch\auth.excalidraw.png](arch\auth.excalidraw.png)
+
+## Teknologi Pendukung
+- Secure Cookie
+- Oauth
+- JSON Web Token
+- Basic Auth
+- API Key / Secret Key
+
+## SOURCE
+[https://www.youtube.com/watch?v=JZ8CW5tgXuY&list=PL-CtdCApEFH-MtoBwQ0F3xNG21yjt5Kvs&index=13](https://www.youtube.com/watch?v=JZ8CW5tgXuY&list=PL-CtdCApEFH-MtoBwQ0F3xNG21yjt5Kvs&index=13)
+
+--- 
+
 
 
 
